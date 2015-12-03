@@ -3,7 +3,8 @@
 This is the official repository of Login Cidadão Documentation. Here, you can find docs about installation, maintenance mode and procedures of [Projeto Login Cidadão](https://github.com/PROCERGS/login-cidadao).
 
 All documents here were generated with mkdocs.
-How to get this documentation?
+
+## How to get this documentation?
 
 1 - In a distro gnu/linux using apt package manager, install the package management system of python language (pip). Sudo user or root permissions can be required:
 
@@ -18,7 +19,8 @@ How to get this documentation?
   $ git clone https://github.com/PROCERGS/login-cidadao-docs.git
 
 4 - Done! All content files will be in docs directory.
-How to get a local installation?
+
+## How to get a local installation?
 
 1 - After clone the repo, get the diretory and run mkdocs:
 
@@ -26,7 +28,8 @@ $ cd login-cidadao-docs
 $ mkdocs serve
 
 2 - In localhost plus default door (http://127.0.0.1:8000) you can reach the docs site. If you want to make some changes, mkdocs will be able to show automaticaly.
-Building html/css/js
+
+## Building html/css/js
 
 1 - To deploy the docs into a html struture, let's build the documentation. Is very simple. In the zup-docs directory, run mkdocs build:
 
